@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body{
+/*     
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    background-image: url('background.jpg');
+    font-family: comfortaa;
+    font-size: 20px;
+ 
+}
+body.fixed-header {
+    padding-top: 100px;   
+}
+body.fixed-header > header {
+    height: 100px;
+    position: fixed;
+    display: block;
+    width: 100%;
+    margin-top: -100px;
+    z-index:1;
+}
+.hat{
+    background-color: rgba(86, 74, 67 , 0.9);
+    padding: 8px;  
+    border-radius: 100px;
+    border: 2px solid rgba(62, 50, 42, 0.9);
+    z-index: 1;
+    margin: 15px auto;
+
+}
+
+button{
+    font-family: comfortaa;
+    font-size: 35px;
+    border-radius: 70px;
+    width: 32%;
+    border: none;
+    margin-left: 8px; 
+    cursor:pointer;
+    color:rgba(86, 74, 67 , 0.9);
+}
+
+.btn{
+    background-color: rgba(86, 74, 67, 0);
+    color: rgb(241, 123, 51);
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: rgba(62, 50, 42, 0.9);
+}
+
+.hat2{
+    text-align: center;
+    
+    background-color: rgba(86, 74, 67 , 0.9);
+    /* position: absolute; */
+    /* margin: 10px; */
+    border-radius: 100px;
+    width:40%;
+    padding-top: 10px;
+    margin: 0 auto;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+p{
+    font-size:35px;
+    /* margin-left: 35%; */
+
+}
+
+.glavnaya{
+    font-size:40px;
+    color: rgb(241, 123, 51);
+}
+
+.fixed-background {
+    height: 90px;
+    border-radius: 100px;
+    display: block;
+    background-attachment: fixed;
+    box-shadow: inset 0px 0px 8px 4px #000000c2;
+    color: rgba(86, 74, 67 , 0.9);
+    text-align: center;
+    padding-top: 10px;
+    margin-top:0px;   
+}
+
+ .image{
+    width: 390px;
+    float: right;
+    margin-top:-30px;
+    margin-right: 100px;
+    border-radius: 150px;
+    box-shadow: inset; 
+    border: 2px solid rgba(62, 50, 42, 0.9);
+} 
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ .info {
+    background-color: rgba(86, 74, 67, 0.9); 
+    /* margin:10%; */
+    border-radius: 100px;
+    border: 2px solid rgb(86, 74, 67);
+    margin-top: 20px;
+    font-size: 30px;
+    /* height: 500px; */
+    /* width: 966px; */
+    color: rgb(241, 123, 51);
+    padding: 30px 100px;
+}
+
+
+.info .list{
+    list-style: square;
+    font-size: 30px;
+    /* text-align: left; */
+    color: rgb(241, 123, 51);
+
+ }
+
+ .codewars{
+     width: 650px;
+     margin-top: 0px;
+     margin-left: 180px;
+ }
+
+
+.foot{
+    background-color: rgba(86, 74, 67 , 0.9);
+    font-size: 35px;
+    text-align: center;
+    border-radius: 100px;
+    color: rgb(241, 123, 51);
+    margin-top: 80px;
+}
+
+
+.scillstext{
+    color:rgb(241, 123, 51);
+    font-size: 24px;
+    /* text-align: center; */
+    background-color: rgba(86, 74, 67 , 0);
+    padding-top: 20px;
+    padding-left: 20px;
+    height:100px;
+    width: 50%;
+    border-radius: 100px;
+}
+
+
+.imag{
+    width: 60px;
+    margin:10px;
+    margin:auto;
+    margin-left: 15px;
+}
+
+.imagcw{
+    width: 430px;
+    margin:10px;
+    margin-left:-10px;
+}
+
+.imagd{
+    width: 97px;
+    margin: 10px;
+    margin-bottom: 3px;
+    margin-left: -4px;
+}
+
+.send{
+    margin-top: 20px;
+    background-color: rgba(62, 50, 42, 0.9);
+    border: 2px solid rgba(53, 46, 41 , 1);
+    color: rgb(241, 123, 51)
+}
+
+input{
+    margin: 20px 0px 10px 0px 
+}
